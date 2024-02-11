@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
 </head>
-
 <body>
-
-    <header>
-        <h2 class="logo"><span>J</span>oe.</h2>
-        <nav class="navigation">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <a href="#" class="btn-talk">Let's Talk</a>
-    </header>
-
-    <section class="home">
-        <div class="content">
-            <h2>Hi, I'm <span>Thomas Kerr-Smith</span></h2>
-            <h4>Frontend Developer</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident voluptas similique.
-                Impedit incidunt atque recusandae rem quam.</p>
-            <div class="btn-group">
-                <a href="#">Contack Me</a>
-                <a href="#">See Projects</a>
+    <nav id="desktop-nav">
+        <div class="logo">Thomas Kerr-Smith</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </Div>
+    </nav>
+    <nav id ="hamburger-nav">
+        <div class="logo">Thomas Kerr-Smith</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
             </div>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
-    </section>
-
+    </nav>
+    <script src="script.js"></script>
 </body>
-
 </html>
