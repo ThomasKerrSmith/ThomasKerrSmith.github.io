@@ -80,14 +80,14 @@
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
+                    <!-- <div class="details-container">
                         <img src="./assets/experience.png" 
                         alt="experience icon" 
                         class="icon"
                         />
                         <h3>Experience</h3>
-                        <p>0 years <br /> Software Developement</p>
-                    </div>
+                        <p></p>
+                    </div> -->
                     <div class="details-container">
                         <img src="./assets/education.png" 
                         alt="Education icon" 
@@ -96,11 +96,23 @@
                         <h3>Education</h3>
                         <p>Bachelors of Digital Technologies <br /> Majoring in Software and Web Developement</p>
                     </div>
+                    <div class="details-container">
+                        <img src="./assets/experience.png"
+                        alt="Education icon" 
+                        class="icon"
+                        />
+                        <h3>Soft Skills</h3>
+                        <p>Bachelors of Digital Technologies <br /> Majoring in Software and Web Developement</p>
+                    </div>
                 </div>
                 <div class="text-container">
-                    <p>Personable, articulate graduate with a Bachelor of Digital Technologies, majoring in software and web development. 
-                        Proven ability to be highly organized and efficient, and can work independently or within a team, bringing a methodical, 
-                        detail-focused approach to getting things done. </p>
+                    <p>Hello there! I'm Thomas Kerr-Smith, a personable and articulate graduate with a Bachelor of Digital Technologies, specializing in software and web development. With a passion for crafting digital solutions, I bring a unique blend of creativity and technical expertise to the table.
+                        <br/>
+                        <br/>
+                        Armed with a solid foundation in software and web development, I am committed to staying at the forefront of technology trends. My goal is to create seamless and innovative digital experiences that leave a lasting impact.
+                        <br/>
+                        <br/>
+                        Currently seeking employment opportunities, I am excited about the prospect of contributing my skills to a dynamic team or project. Let's turn ideas into reality. Join me on this digital adventure, where innovation meets precision! </p>
                 </div>
             </div>
         </div>
@@ -246,7 +258,131 @@
           onclick="location.href='./#projects'"
         />
     </section>
-    <section id="projects"
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Industry Project</h2>
+              <p class="section__text__p2">Node.js vs ASP.Net</p>
+              <p class="section__text__p2">Conducted a comparative analysis between Node.js and
+                ASP.NET, all while considering the emerging 'shift-left'trend in software development. 
+                <br/> 
+                <br/>
+                Created two web applications using both environments to
+                compare how both handled and mitigated security risks.
+                <br/>
+                <br/>
+                This project tackled security issues such as cross-site
+                scripting, SQL injection and brute force attacks.
+                <br/>
+                <br/>
+                Utilised: C#, Node.js, Visual Studio Code, Visual Studio, NPM,
+                NuGet, Snyk Security Database
+                </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/ThomasKerrSmith/Industry-Project-Node.js'">
+                  Github Node.js
+                </button>
+                <button
+                  class="btn btn-color-1"
+                  onclick="location.href= 'https://github.com/ThomasKerrSmith/Industry-Project-ASP.Net'">
+                  Github ASP.NET
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assets/Final Report Industry Project.pdf')">
+                  Download Report
+                </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">.NET Book Store Web Application </h2>
+              <p class="section__text__p2">Created a book store web application in visual studio which
+                contained cart, payment, user and role management.
+                <br/>
+                <br/>
+                Connected the web application to a SQL server which contained the database 
+                <br/>
+                <br/>
+                Utilised: C#, SQL Server, Stripe, Visual Studio. 
+                </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1"
+                  onclick="location.href='https://github.com/ThomasKerrSmith/TGJBookStore/tree/main'">
+                  Github Book Store
+                </button>
+              </div>
+            </div>
+
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Industry Project</h2>
+              <p class="section__text__p2">Created a MVC school management system which contains staff details, student details and grades.
+                <br/>
+                <br/>
+                This web application contains a azure function whch is used to calculate student grades.
+                <br/>
+                <br/>
+                Utilised: C#, SQL Server, Azure, Visual Studio.
+                </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/ThomasKerrSmith/Cloud-SaaS-Project/tree/main'">
+                  Github
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:thomas.kerr@hotmail.co.nz">thomas.kerr@hotmail.co.nz</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/thomas-kerr-smith/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
