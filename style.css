@@ -164,7 +164,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 60vh;
+    height: 80vh;
 }
   
 .section__pic-container {
@@ -261,7 +261,6 @@ section {
   /* ABOUT ME SECTION */
 
 #about {
-    margin-top: 2rem;
     position: relative;
   }
   
@@ -292,7 +291,7 @@ section {
 }
   
 .details-container {
-    padding: 3rem;
+    padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -427,4 +426,4 @@ article .icon {
   
   footer p {
     text-align: center;
-  }
+}
