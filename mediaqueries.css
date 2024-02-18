@@ -38,7 +38,7 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275jpx;
+    width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
@@ -101,5 +101,43 @@
       text-align: justify;
     }
   }
+
+  @media screen and (max-height: 900px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+
+
+
   
 
